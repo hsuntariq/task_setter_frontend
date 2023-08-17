@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL = 'http://localhost:3001/api/users';
+const URL = 'https://harlequin-swallow-suit.cyclic.cloud/api/users';
 
 const registerUser = async(userData) => {
     const response = await axios.post(`${URL}/register`,userData);

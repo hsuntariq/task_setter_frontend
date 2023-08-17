@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL = 'http://localhost:3001/api/goals';
+const URL = 'https://harlequin-swallow-suit.cyclic.cloud/api/goals';
 
 
 const postGoals = async(goalData,token) => {
